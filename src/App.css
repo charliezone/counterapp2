@@ -1,0 +1,21 @@
+.counter-app {
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  display: flex;
+  row-gap: 1rem;
+}
+
+.counter-app .actions {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.counter-app .actions,
+.counter-app input {
+  align-self: center;
+}
+
+.counter-app .actions button {
+  border: 1px solid #fff;
+}
