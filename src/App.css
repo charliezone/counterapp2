@@ -6,6 +6,10 @@
   row-gap: 1rem;
 }
 
+.counter-app label {
+  text-align: center;
+}
+
 .counter-app .actions {
   display: flex;
   column-gap: 0.5rem;
