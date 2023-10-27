@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="counter-app">
-      <label htmlFor="counter">Counter App</label>
+      <label htmlFor="counter">Counter</label>
       <input type="text" name="counter" id="counter" value={counter} />
       <div className="actions">
         <button onClick={() => handleUpdateCounter("+")}>+</button>
